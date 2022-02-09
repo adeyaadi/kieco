@@ -1,0 +1,122 @@
+.slick-initialized .slick-slide {
+    outline: 0
+}
+
+.mobile_menu .slicknav_menu {
+    background: transparent;
+    margin-top: 0px !important
+}
+
+    .mobile_menu .slicknav_menu .slicknav_btn {
+        top: -33px
+    }
+
+@media (max-width: 575px) {
+    .mobile_menu .slicknav_menu .slicknav_btn {
+        top: -25px
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .mobile_menu .slicknav_menu .slicknav_btn {
+        top: -25px
+    }
+}
+
+.mobile_menu .slicknav_menu .slicknav_btn .slicknav_icon-bar {
+    background-color: #40005F !important;
+    height: 3px;
+    margin: 6px 0;
+    width: 33px
+}
+
+.mobile_menu .slicknav_menu .slicknav_nav {
+    margin-top: 14px !important
+}
+
+    .mobile_menu .slicknav_menu .slicknav_nav a:hover {
+        background: transparent;
+        color: #40005F
+    }
+
+    .mobile_menu .slicknav_menu .slicknav_nav a {
+        font-size: 15px;
+        padding: 7px 10px
+    }
+
+    .mobile_menu .slicknav_menu .slicknav_nav .slicknav_item a {
+        padding: 0 !important
+    }
+
+.slider-area2 .hero-cap h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: capitalize;
+    line-height: 1
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .slider-area2 .hero-cap h2 {
+        font-size: 50px
+    }
+}
+
+@media (max-width: 575px) {
+    .slider-area2 .hero-cap h2 {
+        font-size: 27px
+    }
+}
+
+.dot-style .slick-dots {
+    text-align: center;
+    bottom: -58px;
+    left: 0;
+    right: 0;
+    position: absolute
+}
+
+    .dot-style .slick-dots li {
+        display: inline-block;
+    }
+
+        .dot-style .slick-dots li.slick-active button::before {
+            position: absolute;
+            content: "";
+            height: 1.25vw;
+            width: 1.25vw;
+            border: 1px solid #fff;
+            left: 50%;
+            margin: 0 auto;
+            text-align: center;
+            top: 48%;
+            transform: translateY(-49%) translateX(-49%);
+            border-radius: 50%;
+            line-height: 25px;
+            -webkit-transition: .4s;
+            -moz-transition: .4s;
+            -o-transition: .4s;
+            transition: .4s
+        }
+
+    .dot-style .slick-dots button {
+        text-indent: -100000px;
+        height: 1vw;
+        width: 1vw;
+        border: 0;
+        padding: 0;
+        margin-right: 10px;
+        cursor: pointer;
+        border-radius: 50%;
+        margin-bottom: 112px;
+        background: #fff
+    }
+
+    .dot-style .slick-dots .slick-active button {
+        background: #fff;
+        position: relative;
+        -webkit-transition: .4s;
+        -moz-transition: .4s;
+        -o-transition: .4s;
+        transition: .4s
+    }
